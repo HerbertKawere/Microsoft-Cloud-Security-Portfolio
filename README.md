@@ -56,4 +56,4 @@ This portfolio demonstrates practical implementation of Microsoft cloud and secu
 
 **Herbert Kawere**
 
-Aspiring Cloud Security Engineer with hands-on experience in Microsoft Azure, Microsoft 365, Identity and Access Management, Endpoint Management, and Security Operations.
+Aspiring Cloud Security Architect with hands-on experience in Microsoft Azure, Microsoft 365, Identity and Access Management, Endpoint Management, and Security Operations.
