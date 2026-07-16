@@ -45,7 +45,7 @@ This portfolio demonstrates practical implementation of Microsoft cloud and secu
 - Identity and Access Management (IAM)
 - Microsoft Entra ID
 - Endpoint Management
-- Security Operations (SOC)
+- Enterprise-Security-Operations
 - Threat Detection and Response
 - Network Security
 - Disaster Recovery and Backup
