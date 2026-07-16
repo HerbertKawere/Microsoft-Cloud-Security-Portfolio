@@ -26,7 +26,7 @@ This portfolio demonstrates practical implementation of Microsoft cloud and secu
 **Technologies:** Microsoft Intune, Windows Autopilot, Compliance Policies, Configuration Profiles, BitLocker
 
 ### Project 04 - Cloud Security Lab
-**Technologies:** Microsoft Sentinel, Microsoft Defender XDR, EDR, Office365, Cloud Apps, Microsoft Secuirty Copilot, Incident Response
+**Technologies:** Microsoft Sentinel, Microsoft Defender XDR, EDR, Office365, Cloud Apps, Microsoft Secuirty Copilot, Vulnerability management, Incident Response
 
 ### Project 05 - Hub-and-Spoke Network
 **Technologies:** Virtual Networks, VNet Peering, Route Tables, Network Security Groups, Azure Bastion
