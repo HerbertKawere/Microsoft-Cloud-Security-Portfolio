@@ -7,7 +7,7 @@ Deploy a hybrid identity environment by synchronizing an on-premises Active Dire
 ## Prerequisites
 
 - On-premises Windows Server 2022
-- Microsoft 365 Developer Tenant or Microsoft Entra ID Tenant
+- Microsoft Entra ID Tenant
 - Global Administrator Account
 - Local Domain Administrator Account
 - Internet Connectivity
@@ -15,9 +15,9 @@ Deploy a hybrid identity environment by synchronizing an on-premises Active Dire
 
 ## Architecture Overview
 
-- Windows Server 2022 (DC01)
-- Windows Server 2022 (DC02)_Replication
-- Windows Server 2022 (DC03_SSO)_Replication
+- DC01 - Primary DC
+- DC02 - Replica Dc
+- DCSSO - SSO/Application Server
 - Active Directory Domain Services (AD DS)
 - Domain Name System
 - File & Storage Services
