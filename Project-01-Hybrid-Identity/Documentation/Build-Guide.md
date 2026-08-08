@@ -42,7 +42,7 @@ Install the Active Directory Domain Services role and promote the server to a Do
 ### Domain Name
 
 ```text
-corp.herbertlab.local
+snl.herbertlab.local
 ```
 
 ## Step 3 - Create Organizational Units
