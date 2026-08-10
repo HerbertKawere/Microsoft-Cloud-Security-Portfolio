@@ -44,6 +44,17 @@ Install the Active Directory Domain Services role and promote the server to a Do
 ```text
 snl.herbertlab.local
 ```
+## Step 3 - Deploy Additional Domain Controller (DC02)
+
+DC02 was deployed as an additional domain controller within the `snl.herbertlab.local` domain to provide redundancy and improve directory service availability.
+
+### Benefits
+
+- Provides a backup authentication source if DC01 becomes unavailable.
+- Maintains Active Directory replication between domain controllers.
+- Reduces the risk of a single point of failure.
+- Supports continued user authentication and directory services during outages.
+- Improves overall resilience of the identity infrastructure.
 
 ## Step 3 - Create Organizational Units
 
