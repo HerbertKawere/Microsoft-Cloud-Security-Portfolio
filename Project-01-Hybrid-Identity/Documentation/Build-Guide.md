@@ -16,7 +16,7 @@ Deploy a hybrid identity environment by synchronizing an on-premises Active Dire
 ## Architecture Overview
 
 - DC01 - Primary DC
-- DC02 - Replica Dc
+- DC02 - Replication DC
 - DCSSO - SSO/Application Server
 - Active Directory Domain Services (AD DS)
 - Domain Name System
