@@ -1,4 +1,4 @@
-
+Project 03 - Secure Endpoint Management Architecture
 Centralized Endpoint Provisioning and Security with Microsoft Intune
 
 ┌─────────────────────────────────────────┐
@@ -49,7 +49,7 @@ Centralized Endpoint Provisioning and Security with Microsoft Intune
      ▼            ▼             ▼
 
 ┌───────────┐ ┌───────────┐ ┌─────────┐
-│Bit Locker  │ │Microsoft  │ │Company  │
+│BitLocker  │ │Microsoft  │ │Company  │
 │Recovery   │ │Defender   │ │Apps     │
 │Keys       │ │Endpoint   │ │Office   │
 └───────────┘ └───────────┘ └─────────┘
@@ -60,7 +60,7 @@ Centralized Endpoint Provisioning and Security with Microsoft Intune
 │ SECURITY & COMPLIANCE                     │
 │                                           │
 │ ✓ Device Compliance                       │
-│ ✓ Bit Locker Encryption                    │
+│ ✓ BitLocker Encryption                    │
 │ ✓ Secure Device Provisioning              │
 │ ✓ Centralized Endpoint Management         │
 │ ✓ Security Baselines                      │
