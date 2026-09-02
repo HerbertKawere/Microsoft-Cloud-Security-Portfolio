@@ -1,68 +1,31 @@
+                    Microsoft Entra ID
+                            │
+                            │
+                    Dynamic Device Groups
+                            │
+                            ▼
 
-Centralized Endpoint Provisioning and Security with Microsoft Intune
+                    Microsoft Intune
+         ┌──────────────────┼──────────────────┐
+         │                  │                  │
+         ▼                  ▼                  ▼
 
-┌─────────────────────────────────────────┐
-│          MICROSOFT ENTRA ID             │
-│                                         │
-│  • Users                               │
-│  • Groups                              │
-│  • Dynamic Device Groups               │
-│  • Device Registration                 │
-└─────────────────┬───────────────────────┘
-                  │
-                  ▼
-┌─────────────────────────────────────────┐
-│             MICROSOFT INTUNE            │
-│                                         │
-│  • Device Enrollment                    │
-│  • Device Management                    │
-│  • Application Deployment               │
-│  • Endpoint Configuration               │
-└─────────────────┬───────────────────────┘
-                  │
-                  ▼
+  Windows Autopilot   Compliance Policies  Configuration Profiles
+         │                  │                  │
+         └──────────────────┼──────────────────┘
+                            │
+                            ▼
 
-┌────────────────┬────────────────┬────────────────┐
-│ WINDOWS        │ COMPLIANCE     │ CONFIGURATION  │
-│ AUTOPILOT      │ POLICIES       │ PROFILES       │
-├────────────────┼────────────────┼────────────────┤
-│ User Driven    │ BitLocker      │ Passwords      │
-│ Entra Join     │ Secure Boot    │ Firewall       │
-│ Device Setup   │ TPM            │ Defender       │
-│ Auto Enrollment│ Defender       │ Lock Screen    │
-└────────┬───────┴────────┬───────┴────────┬───────┘
-         │                │                │
-         └────────────────┼────────────────┘
-                          ▼
+                 Windows 11 Corporate Device
+                            │
+        ┌───────────────────┼───────────────────┐
+        │                   │                   │
+        ▼                   ▼                   ▼
 
-┌─────────────────────────────────────────┐
-│          WINDOWS 11 ENDPOINT            │
-│                                         │
-│  • Entra ID Joined                      │
-│  • Intune Managed                       │
-│  • BitLocker Enabled                    │
-│  • Compliance Evaluated                 │
-│  • Security Baseline Applied            │
-└─────────────────┬───────────────────────┘
-                  │
-     ┌────────────┼─────────────┐
-     ▼            ▼             ▼
+     BitLocker       Microsoft Defender    Device Compliance
+     Encryption       Security Controls      Monitoring
 
-┌───────────┐ ┌───────────┐ ┌─────────┐
-│BitLocker  │ │Microsoft  │ │Company  │
-│Recovery   │ │Defender   │ │Apps     │
-│Keys       │ │Endpoint   │ │Office   │
-└───────────┘ └───────────┘ └─────────┘
+                            │
+                            ▼
 
-                  ▼
-
-┌───────────────────────────────────────────┐
-│ SECURITY & COMPLIANCE                     │
-│                                           │
-│ ✓ Device Compliance                       │
-│ ✓ BitLocker Encryption                    │
-│ ✓ Secure Device Provisioning              │
-│ ✓ Centralized Endpoint Management         │
-│ ✓ Security Baselines                      │
-│ ✓ Conditional Access Ready                │
-└───────────────────────────────────────────┘
+                    Secure Corporate Access
