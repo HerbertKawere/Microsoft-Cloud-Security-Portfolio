@@ -1,4 +1,4 @@
-Project 03 - Secure Endpoint Management Architecture
+
 Centralized Endpoint Provisioning and Security with Microsoft Intune
 
 ┌─────────────────────────────────────────┐
