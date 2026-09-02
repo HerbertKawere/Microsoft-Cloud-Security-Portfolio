@@ -1,31 +1,20 @@
-                    Microsoft Entra ID
-                            │
-                            │
-                    Dynamic Device Groups
-                            │
-                            ▼
+flowchart TD
 
-                    Microsoft Intune
-         ┌──────────────────┼──────────────────┐
-         │                  │                  │
-         ▼                  ▼                  ▼
+A[Microsoft Entra ID]
+--> B[Microsoft Intune]
 
-  Windows Autopilot   Compliance Policies  Configuration Profiles
-         │                  │                  │
-         └──────────────────┼──────────────────┘
-                            │
-                            ▼
+B --> C[Windows Autopilot]
+B --> D[Compliance Policies]
+B --> E[Configuration Profiles]
 
-                 Windows 11 Corporate Device
-                            │
-        ┌───────────────────┼───────────────────┐
-        │                   │                   │
-        ▼                   ▼                   ▼
+C --> F[Windows 11 Endpoint]
+D --> F
+E --> F
 
-     BitLocker       Microsoft Defender    Device Compliance
-     Encryption       Security Controls      Monitoring
+F --> G[BitLocker Recovery Keys]
+F --> H[Microsoft Defender]
+F --> I[Company Apps]
 
-                            │
-                            ▼
-
-                    Secure Corporate Access
+G --> J[Security & Compliance]
+H --> J
+I --> J
