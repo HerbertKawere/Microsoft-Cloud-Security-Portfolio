@@ -41,7 +41,6 @@ Deploy and manage Windows 11 endpoints using Microsoft Intune and Windows Autopi
 
 ### Endpoint Security
 
-- Antivirus
 - BitLocker
 - Firewall
 - Endpoint Privilege Management
