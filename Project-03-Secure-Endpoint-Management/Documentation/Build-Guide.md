@@ -2,7 +2,7 @@
 
 ## Objective
 
-Deploy and manage Windows 11 endpoints using Microsoft Intune and Windows Autopilot while enforcing security controls through compliance policies, configuration profiles, and BitLocker encryption.
+Deploy and manage Windows 11 endpoints using Microsoft Intune and Windows Autopilot while enforcing security controls through compliance policies, configuration profiles, endpoint security policies, and BitLocker encryption.
 
 ## Prerequisites
 
@@ -41,23 +41,26 @@ Deploy and manage Windows 11 endpoints using Microsoft Intune and Windows Autopi
 
 ### Endpoint Security
 
-- BitLocker
-- Firewall
-- Endpoint Privilege Management
-- Endpoint Detection and response
-- Attack surface reduction
-- Microsoft Defender
-- Microsoft Security Baselines
+- BitLocker Disk Encryption
+- Microsoft Defender Antivirus
+- Microsoft Defender for Endpoint (EDR)
+- Microsoft Defender Firewall
+- Endpoint Privilege Management (EPM)
+- Attack Surface Reduction (ASR) Rules
+- Security Baselines
+- Device Compliance Monitoring
+- Threat & Vulnerability Management
 
 ---
 
-# Step 1 - Create User Groups
+## Step 1 - Create User Groups
 
 Navigate to:
 
-```text
 Microsoft Entra Admin Center
-→ Groups
+
+```text
+Groups
 → New Group
 ```
 
@@ -73,12 +76,13 @@ IT Administrators
 Purpose:
 
 - User assignments
+- Device assignments
 - Policy assignments
-- Device targeting
+- Endpoint security targeting
 
 ---
 
-# Step 2 - Configure Automatic Enrollment
+## Step 2 - Configure Automatic Enrollment
 
 Navigate to:
 
@@ -95,15 +99,15 @@ Configure:
 MDM User Scope = All
 ```
 
-Verification:
+Validation:
 
 ```text
-Microsoft Intune Enrollment Enabled
+Automatic device enrollment enabled
 ```
 
 ---
 
-# Step 3 - Configure Windows Autopilot
+## Step 3 - Configure Windows Autopilot
 
 Navigate to:
 
@@ -114,28 +118,21 @@ Devices
 → Devices
 ```
 
-Import device hardware hash.
+Import the hardware hash.
 
-Create deployment profile:
+Create a deployment profile:
 
 ```text
 Corporate Windows Deployment
 ```
 
-Settings:
+Configuration:
 
 ```text
-Join to Microsoft Entra ID as:
-Azure AD Joined
-
-Deployment Mode:
-User Driven
-
-Automatically Configure Device:
-Yes
-
-Skip Privacy Settings:
-Yes
+Deployment Mode: User Driven
+Join Type: Microsoft Entra Joined
+Automatically Configure Device: Yes
+Skip Privacy Settings: Yes
 ```
 
 Assign:
@@ -146,7 +143,7 @@ Pilot Devices
 
 ---
 
-# Step 4 - Create Device Compliance Policy
+## Step 4 - Create Device Compliance Policy
 
 Navigate to:
 
@@ -162,14 +159,15 @@ Platform:
 Windows 10 and Later
 ```
 
-Compliance Requirements:
+Configure:
 
 ```text
 BitLocker Enabled
-Secure Boot Enabled
-TPM Enabled
 Firewall Enabled
+TPM Enabled
+Secure Boot Enabled
 Microsoft Defender Enabled
+Password Required
 ```
 
 Assign:
@@ -180,7 +178,7 @@ Corporate Devices
 
 ---
 
-# Step 5 - Create Configuration Profile
+## Step 5 - Create Configuration Profile
 
 Navigate to:
 
@@ -188,12 +186,6 @@ Navigate to:
 Devices
 → Configuration Profiles
 → Create Profile
-```
-
-Platform:
-
-```text
-Windows 10 and Later
 ```
 
 Profile Type:
@@ -208,7 +200,7 @@ Configure:
 
 ```text
 Minimum Length: 12
-Complexity Enabled
+Password Complexity Enabled
 ```
 
 ### Screen Lock
@@ -227,6 +219,7 @@ Enabled
 
 ```text
 Real-Time Protection Enabled
+Cloud Protection Enabled
 ```
 
 Assign:
@@ -237,7 +230,7 @@ Corporate Devices
 
 ---
 
-# Step 6 - Configure BitLocker
+## Step 6 - Configure BitLocker
 
 Navigate to:
 
@@ -245,12 +238,6 @@ Navigate to:
 Endpoint Security
 → Disk Encryption
 → Create Policy
-```
-
-Platform:
-
-```text
-Windows 10 and Later
 ```
 
 Configuration:
@@ -270,76 +257,128 @@ Corporate Devices
 
 ---
 
-# Step 7 - Deploy Test Device
-
-Perform a Windows Reset on the test device.
-
-During setup:
-
-```text
-Connect to Internet
-Sign in using Entra ID Account
-```
-
-Expected Result:
-
-```text
-Device registered with Entra ID
-Device enrolled into Intune
-Policies automatically applied
-```
-
----
-
-# Step 8 - Verify Device Enrollment
+## Step 7 - Configure Endpoint Security
 
 Navigate to:
 
 ```text
-Devices
-→ All Devices
+Endpoint Security
 ```
 
-Verify:
+### Configure Firewall
+
+Create Firewall Policy:
 
 ```text
-Device appears in Intune
-Device is Entra ID Joined
-Ownership = Corporate
+Domain Profile = Enabled
+Private Profile = Enabled
+Public Profile = Enabled
 ```
 
----
-
-# Step 9 - Verify Compliance
-
-Navigate to:
+Assign:
 
 ```text
-Devices
-→ Monitor
-→ Compliance
-```
-
-Verify:
-
-```text
-Status = Compliant
-```
-
-Review:
-
-```text
-Encryption Status
-Firewall Status
-Defender Status
+Corporate Devices
 ```
 
 ---
 
-# Step 10 - Verify BitLocker
+### Configure Endpoint Privilege Management (EPM)
+
+Create Endpoint Privilege Management Policy:
+
+```text
+Allow approved application elevation
+Reduce permanent local administrator accounts
+Implement just-in-time elevation
+```
+
+Assign:
+
+```text
+Corporate Devices
+```
+
+---
+
+### Configure Endpoint Detection and Response (EDR)
+
+Integrate Microsoft Defender for Endpoint.
+
+Configure:
+
+```text
+EDR in Block Mode
+Threat Detection
+Automated Investigation
+Device Risk Assessment
+```
+
+Validate device onboarding.
+
+---
+
+### Configure Attack Surface Reduction (ASR)
+
+Create Attack Surface Reduction Policy.
+
+Enable rules such as:
+
+```text
+Block Office applications from creating child processes
+Block executable content from email and webmail
+Block credential stealing from LSASS
+Block untrusted and unsigned processes
+```
+
+Assign:
+
+```text
+Corporate Devices
+```
+
+---
+
+### Configure Security Baselines
 
 Navigate to:
 
 ```text
-manage-bde -status
+Endpoint Security
+→ Security Baselines
+```
 
+Deploy:
+
+```text
+Windows 11 Security Baseline
+Microsoft Defender Security Baseline
+Microsoft Edge Security Baseline
+```
+
+Assign:
+
+```text
+Corporate Devices
+```
+
+---
+
+### Configure Threat and Vulnerability Management
+
+Within Microsoft Defender:
+
+```text
+Review Security Recommendations
+Monitor Exposure Score
+Assess Device Vulnerabilities
+Track Remediation Activities
+```
+
+---
+
+## Step 8 - Deploy Test Device
+
+Perform a Windows reset on the test device.
+
+During 
