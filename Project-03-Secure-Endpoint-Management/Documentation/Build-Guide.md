@@ -117,7 +117,7 @@ Devices
 → Windows Enrollment
 → Devices
 ```
-
+Autopilot device preparations
 Import the hardware hash.
 
 Create a deployment profile:
