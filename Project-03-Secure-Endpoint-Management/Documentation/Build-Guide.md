@@ -336,5 +336,6 @@ Defender Status
 
 Navigate to:
 
-```manage-bde -status
+```text
+manage-bde -status
 
