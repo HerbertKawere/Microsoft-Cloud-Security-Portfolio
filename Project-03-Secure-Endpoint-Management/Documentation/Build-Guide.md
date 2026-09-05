@@ -118,6 +118,7 @@ Devices
 → Devices
 ```
 Autopilot device preparations
+
 Import the hardware hash.
 
 Create a deployment profile:
