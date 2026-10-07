@@ -113,4 +113,4 @@ Current areas of focus:
 
 **Herbert Kawere**
 
-IT infrastructure and Microsoft cloud professional with a background spanning networking, Windows infrastructure, Microsoft 365, Azure, identity, endpoint management, and security. Currently developing deeper expertise in cloud security engineering, with particular focus on identity, endpoint security, Azure security, and automation.
+IT infrastructure and Microsoft cloud professional with a background spanning networking, Windows infrastructure, Microsoft 365, Azure, identity, endpoint management, and security. Currently developing deeper expertise in cloud security engineering, with particular focus on identity, endpoint security, Azure security, IaC.
