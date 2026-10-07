@@ -1,7 +1,15 @@
 
 # Microsoft Cloud Security Portfolio
 
-A collection of enterprise-focused projects showcasing hands-on experience across Microsoft cloud, identity, endpoint management, and security solutions.
+Welcome to my hands-on technical portfolio.
+
+I am an IT infrastructure and Microsoft cloud professional with experience
+across Microsoft 365, Azure, Entra ID, Intune, Windows Server, Active
+Directory, networking, endpoint security, and hybrid environments.
+
+This portfolio documents practical lab projects that build on my
+professional infrastructure and Microsoft cloud experience while I
+continue developing deeper skills in cloud security engineering.
 
 ## Certifications Aligned
 
