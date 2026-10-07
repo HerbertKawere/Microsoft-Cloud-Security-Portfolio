@@ -62,8 +62,10 @@ Focus: Secure Azure infrastructure, network segmentation, protected administrati
 
 Focus: Secure device provisioning, endpoint hardening, compliance, identity integration, and Zero Trust access.
 
-### Project 04 - Cloud Security Lab
-**Technologies:** Microsoft Sentinel, Microsoft Defender XDR, EDR, Office365, Cloud Apps, Microsoft Secuirty Copilot, Vulnerability management, Incident Response
+### Project 04 - Microsoft-Security-Operations
+**Technologies:** Microsoft Defender XDR, EDR, Office365, Vulnerability management, Incident Investigation
+
+Focus: Security monitoring, detection, investigation, and response.
 
 ### Project 05 - Hub-and-Spoke Network
 **Technologies:** Virtual Networks, VNet Peering, Route Tables, Network Security Groups, Azure Bastion
