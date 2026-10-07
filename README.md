@@ -67,14 +67,15 @@ Focus: Secure device provisioning, endpoint hardening, compliance, identity inte
 
 Focus: Security monitoring, detection, investigation, and response.
 
-### Project 05 - Hub-and-Spoke Network
-**Technologies:** Virtual Networks, VNet Peering, Route Tables, Network Security Groups, Azure Bastion
+### Project 05 - Hybrid Cloud Security
+**Technologies:** Azure, Entra ID, Active Directory, Intune, Defender, Microsoft 365, Networking, Zero Trust
 
-### Project 06 - Azure Disaster Recovery Solution
+Focus: A capstone lab combining identity, endpoint, infrastructure, networking, and cloud security concepts.
+
+### Microsoft Graph & Automation
+Developing API-driven administration and security automation capabilities using Microsoft Graph.
 **Technologies:** Azure Backup, Recovery Services Vault, Azure Site Recovery, Monitoring
 
-### Project 07 - Zero Trust Enterprise
-**Technologies:** Conditional Access, Privileged Identity Management (PIM), Intune, Defender XDR, Sentinel, Azure Security Controls
 
 ---
 
