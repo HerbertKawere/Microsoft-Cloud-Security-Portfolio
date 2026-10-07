@@ -42,6 +42,9 @@ My background includes:
 - Backup and disaster recovery
 - Microsoft Defender security technologies
 
+This portfolio complements my professional experience through dedicated lab environments where I can design, test, document, and expand cloud
+and security capabilities.
+
 ## Projects
 
 ### Project 01 - Hybrid Identity
