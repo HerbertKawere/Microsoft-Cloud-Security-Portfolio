@@ -25,9 +25,22 @@ continue developing deeper skills in cloud security engineering.
 - IaC - Bicep
 
 
-## Objective
+## Professional Background
 
-This portfolio demonstrates practical implementation of Microsoft cloud and security technologies through real-world scenarios involving Azure administration, identity and access management, endpoint management, security operations, networking, business continuity, and Zero Trust architecture.
+My professional experience spans networking, infrastructure, Microsoft 365, Azure, identity, endpoint management, and security.
+
+In my current role, I support 63+ client environments across Azure, Microsoft 365, Windows Server, Entra ID, Intune, networking, and security.
+
+My background includes:
+
+- Microsoft 365 and Azure administration
+- Microsoft Entra ID and hybrid identity
+- Conditional Access and identity governance
+- Microsoft Intune and endpoint security
+- Windows Server and Active Directory
+- Network and firewall administration
+- Backup and disaster recovery
+- Microsoft Defender security technologies
 
 ## Projects
 
