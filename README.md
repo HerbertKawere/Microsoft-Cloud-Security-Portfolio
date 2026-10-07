@@ -57,8 +57,10 @@ Focus: Hybrid identity, Zero Trust access controls, privileged access, and ident
 
 Focus: Secure Azure infrastructure, network segmentation, protected administrative access, monitoring, and resiliency.
 
-### Project 03 - Secure Endpoint Management
-**Technologies:** Microsoft Intune, Windows Autopilot, Compliance Policies, Configuration Profiles, BitLocker
+### Project 03 - Secure-Endpoint-Management
+**Technologies:** Intune, Defender, Autopilot, Compliance, Security Baselines, BitLocker, ASR, Windows Hello for Business
+
+Focus: Secure device provisioning, endpoint hardening, compliance, identity integration, and Zero Trust access.
 
 ### Project 04 - Cloud Security Lab
 **Technologies:** Microsoft Sentinel, Microsoft Defender XDR, EDR, Office365, Cloud Apps, Microsoft Secuirty Copilot, Vulnerability management, Incident Response
