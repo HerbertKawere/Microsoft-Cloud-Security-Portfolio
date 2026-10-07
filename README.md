@@ -117,4 +117,4 @@ Current areas of focus:
 
 **Herbert Kawere**
 
-Aspiring Cloud Security Architect with hands-on experience in Microsoft Azure, Microsoft 365, Identity and Access Management, Endpoint Management, and Security Operations.
+IT infrastructure and Microsoft cloud professional with a background spanning networking, Windows infrastructure, Microsoft 365, Azure, identity, endpoint management, and security. Currently developing deeper expertise in cloud security engineering, with particular focus on identity, endpoint security, Azure security, and automation.
