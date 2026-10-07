@@ -103,15 +103,11 @@ Current areas of focus:
 
 ## Technologies & Areas Covered
 
-## Cloud & Infrastructure:  Azure, Microsoft 365, Windows Server, Active Directory
-
-## Identity:  Entra ID, Hybrid Identity, Conditional Access, MFA, PIM, Identity Governance
-
-## Endpoint:  Intune, Defender, Autopilot, Compliance, Endpoint Security
-
-## Security:  Defender XDR, Zero Trust, Endpoint Security
-
-## Networking:  Azure Networking, VNets
+- Cloud & Infrastructure:  Azure, Microsoft 365, Windows Server, Active Directory
+- Identity:  Entra ID, Hybrid Identity, Conditional Access, MFA, PIM, Identity Governance
+- Endpoint:  Intune, Defender, Autopilot, Compliance, Endpoint Security
+- Security:  Defender XDR, Zero Trust, Endpoint Security
+- Networking:  Azure Networking, VNets
 
 ## Author
 
