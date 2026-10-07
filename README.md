@@ -85,21 +85,25 @@ Current areas of focus:
 - Microsoft 365 automation
 
 
+### IaC - Bicep
+
+
+##   Certifications
+
+- Microsoft Certified: Azure Administrator Associate (AZ-104)
+- Microsoft Certified: Identity and Access Administrator Associate (SC-300)
+- Microsoft Certified: Endpoint Administrator Associate (MD-102)
+- Microsoft Certified: Security Operations Analyst Associate (SC-200)
+- Cisco Certified Network Associate (CCNA)
+- CompTIA Security+
+- ITIL 4 Foundation
+
 
 ---
 
-## Core Skills Demonstrated
+## Technologies & Areas Covered
 
-- Azure Administration
-- Identity and Access Management (IAM)
-- Microsoft Entra ID
-- Endpoint Management
-- Enterprise-Security-Operations
-- Threat Detection and Response
-- Network Security
-- Disaster Recovery and Backup
-- Zero Trust Security
-- Governance and Compliance
+### Cloud & Infrastructure: Azure, Microsoft 365, Windows Server, Active Directory
 
 ## Author
 
