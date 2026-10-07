@@ -52,8 +52,10 @@ and security capabilities.
 
 Focus: Hybrid identity, Zero Trust access controls, privileged access, and identity governance.
 
-### Project 02 - Secure Azure Environment
-**Technologies:** Azure Virtual Machines, Virtual Networks, NSGs, Azure Bastion, Azure Monitor, Azure Backup
+### Project 02 - Secure-Azure-Infrastructure
+**Technologies:** Azure VMs, VNets, NSGs, VNet Peering, Bastion, Monitoring, Backup, Recovery Services
+
+Focus: Secure Azure infrastructure, network segmentation, protected administrative access, monitoring, and resiliency.
 
 ### Project 03 - Secure Endpoint Management
 **Technologies:** Microsoft Intune, Windows Autopilot, Compliance Policies, Configuration Profiles, BitLocker
