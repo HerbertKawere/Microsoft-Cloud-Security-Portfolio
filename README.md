@@ -74,7 +74,16 @@ Focus: A capstone lab combining identity, endpoint, infrastructure, networking, 
 
 ### Microsoft Graph & Automation
 Developing API-driven administration and security automation capabilities using Microsoft Graph.
-**Technologies:** Azure Backup, Recovery Services Vault, Azure Site Recovery, Monitoring
+
+Current areas of focus:
+ 
+- Identity reporting
+- User and group administration
+- Device inventory
+- Role and privilege reporting
+- Security configuration visibility
+- Microsoft 365 automation
+
 
 
 ---
