@@ -49,8 +49,8 @@ and security capabilities.
 
 ### Project 01 - Identity-and-Access-Security
 **Technologies:** Microsoft Entra ID, Active Directory, Entra Connect, MFA, Conditional Access, PIM, Access Reviews, Entitlement Management
-Focus:
- Hybrid identity, Zero Trust access controls, privileged access, and identity governance.
+
+Focus: Hybrid identity, Zero Trust access controls, privileged access, and identity governance.
 
 ### Project 02 - Secure Azure Environment
 **Technologies:** Azure Virtual Machines, Virtual Networks, NSGs, Azure Bastion, Azure Monitor, Azure Backup
