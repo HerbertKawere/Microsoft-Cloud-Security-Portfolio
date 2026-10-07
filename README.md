@@ -11,12 +11,19 @@ This portfolio documents practical lab projects that build on my
 professional infrastructure and Microsoft cloud experience while I
 continue developing deeper skills in cloud security engineering.
 
-## Certifications Aligned
+## Focus Areas
 
-- Microsoft Azure Administrator (AZ-104)
-- Microsoft Identity and Access Administrator (SC-300)
-- Microsoft Intune Endpoint Administrator (MD-102)
-- Microsoft Security Operations Analyst (SC-200)
+- Microsoft Azure
+- Microsoft Entra ID
+- Identity & Access Management
+- Microsoft Intune
+- Microsoft Defender
+- Microsoft 365 Security
+- Cloud & Network Security
+- Zero Trust
+- Microsoft Graph & Automation
+- IaC - Bicep
+
 
 ## Objective
 
