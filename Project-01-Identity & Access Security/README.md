@@ -1,14 +1,12 @@
 ## Project 01 - Identity & Access Security
 
 ## Overview
-This project demonstrates identity and access security using Active Directory, Microsoft Entra ID, MFA, Conditional Access, Privileged Identity Management (PIM), Access Reviews, and Entitlement Management.
-The objective is to implement core Zero Trust identity controls that strengthen authentication, authorization, governance, and privileged access management.
+This project demonstrates how Microsoft Entra ID can be used to implement Zero Trust identity controls in a hybrid environment.
 
-Project Type
-Personal Lab Environment
+The solution integrates hybrid identity, secure authentication, privileged access management, and identity governance to reduce identity-related risk and strengthen access control.
 
 ## Scenario
-A fictional organization requires secure access to Microsoft 365 resources while reducing identity-related risks through modern identity and governance controls.
+Secure Networks Ltd. requires secure access to Microsoft 365 resources while reducing the attack surface associated with user and administrative accounts.
 
 ## Objectives
 - Implement hybrid identity
