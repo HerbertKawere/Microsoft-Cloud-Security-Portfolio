@@ -1,4 +1,4 @@
-#Project 01 - Identity & Access Security
+## Project 01 - Identity & Access Security
 
 Overview
 This project demonstrates identity and access security using Active Directory, Microsoft Entra ID, MFA, Conditional Access, Privileged Identity Management (PIM), Access Reviews, and Entitlement Management.
