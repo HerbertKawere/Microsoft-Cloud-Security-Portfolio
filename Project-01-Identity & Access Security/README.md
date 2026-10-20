@@ -16,19 +16,12 @@ Secure Networks Ltd. requires secure access to Microsoft 365 resources while red
 - Access Reviews: Implemented periodic access certification for privileged users.
 - Entitlement Management: Created access packages to support controlled resource requests.
 
-## Lessons Learned
-- Improved understanding of Conditional Access policy evaluation.
-- Improved understanding of hybrid identity architecture.
-- Learned how PIM reduces standing administrative privileges.
-- Gained practical experience with identity governance controls.
-- Better understanding of Zero Trust identity security.
+## Key Takeways
+- Strengthened understanding of Conditional Access policy evaluation.
+- Improved knowledge of hybrid identity architecture.
+- Demonstrated Just-In-Time administrative access using PIM.
+- Applied Identity Governance through Access Reviews and Entitlement Management.
+- Reinforced Zero Trust identity security principles.
 
 ## Technologies Used
-- Active Directory
-- Microsoft Entra ID
-- Entra Connect
-- Multi-Factor Authentication (MFA)
-- Conditional Access
-- Privileged Identity Management (PIM)
-- Access Reviews
-- Entitlement Management
+- Active Directory - Microsoft Entra ID - Entra Connect - Multi-Factor Authentication (MFA) - Conditional Access - Privileged Identity Management (PIM) - Access Reviews - Entitlement Management
