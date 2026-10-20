@@ -21,26 +21,26 @@ A fictional organization requires secure access to Microsoft 365 resources while
 - Architecture
 - Identity Architecture
 
-Security Controls Demonstrated
-1. Hybrid Identity
+## Security Controls Demonstrated
+- Hybrid Identity
 Active Directory identities are synchronized to Microsoft Entra ID using Microsoft Entra Connect, providing a unified identity platform across on-premises and cloud resources.
 
-2. Multi-Factor Authentication (MFA)
+- Multi-Factor Authentication (MFA)
 MFA was configured to strengthen authentication security and reduce the risk of unauthorized access from compromised credentials.
 
-3. Conditional Access
+- Conditional Access
 Conditional Access policies were configured to enforce MFA, control access, and support Zero Trust principles.
 
-4. Privileged Identity Management (PIM)
+- Privileged Identity Management (PIM)
 PIM was used to implement Just-In-Time administrative access, reducing standing privileges and supporting least privilege.
 
-5. Access Reviews
+- Access Reviews
 Access Reviews were configured to periodically validate user access and reduce excessive permissions.
 
-6. Entitlement Management
+- Entitlement Management
 Access Packages were created to simplify access requests and improve identity governance.
 
-7. Validation
+- Validation
 Identity controls were verified through sign-in testing and audit logs.
 
 ## Test Results
