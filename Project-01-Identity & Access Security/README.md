@@ -1,6 +1,6 @@
 ## Project 01 - Identity & Access Security
 
-Overview
+## Overview
 This project demonstrates identity and access security using Active Directory, Microsoft Entra ID, MFA, Conditional Access, Privileged Identity Management (PIM), Access Reviews, and Entitlement Management.
 The objective is to implement core Zero Trust identity controls that strengthen authentication, authorization, governance, and privileged access management.
 
