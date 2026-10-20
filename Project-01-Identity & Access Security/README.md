@@ -15,28 +15,13 @@ Secure Networks Ltd. requires secure access to Microsoft 365 resources while red
 - Privileged Identity Management (PIM): Configured Just-In-Time and Just Enough administrative access.
 - Access Reviews: Implemented periodic access certification for privileged users.
 - Entitlement Management: Created access packages to support controlled resource requests.
-- Validation: 
-Identity controls were verified through sign-in testing and audit logs.
 
-## Test Results
-Test	Expected Result	Outcome
-MFA Challenge	User prompted for MFA	✅ Success
-Conditional Access	Policy enforced	✅ Success
-PIM Activation	Elevation required	✅ Success
-Access Review	Review generated	✅ Success
-Security Considerations
-Zero Trust principles
-Least Privilege access
-Just-In-Time administration
-Identity Governance
-Strong authentication
-Continuous access validation
-Lessons Learned
-Improved understanding of Conditional Access policy evaluation.
-Improved understanding of hybrid identity architecture.
-Learned how PIM reduces standing administrative privileges.
-Gained practical experience with identity governance controls.
-Better understanding of Zero Trust identity security.
+## Lessons Learned
+- Improved understanding of Conditional Access policy evaluation.
+- Improved understanding of hybrid identity architecture.
+- Learned how PIM reduces standing administrative privileges.
+- Gained practical experience with identity governance controls.
+- Better understanding of Zero Trust identity security.
 
 ## Technologies Used
 - Active Directory
