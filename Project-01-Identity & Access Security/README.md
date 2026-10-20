@@ -8,20 +8,12 @@ The solution integrates hybrid identity, secure authentication, privileged acces
 ## Scenario
 Secure Networks Ltd. requires secure access to Microsoft 365 resources while reducing the attack surface associated with user and administrative accounts.
 
-## Objectives
-- Implement hybrid identity
-- Configure MFA
-- Implement Conditional Access
-- Configure PIM
-- Perform Access Reviews
-- Implement Entitlement Management
-- Validate security controls
-- Architecture
-- Identity Architecture
+## Implementation
+- Hybrid Identity. Implemented synchronization between Active Directory and Microsoft Entra ID using Entra Connect.
 
-## Security Controls Demonstrated
-- Hybrid Identity
-Active Directory identities are synchronized to Microsoft Entra ID using Microsoft Entra Connect, providing a unified identity platform across on-premises and cloud resources.
+
+  
+
 
 - Multi-Factor Authentication (MFA)
 MFA was configured to strengthen authentication security and reduce the risk of unauthorized access from compromised credentials.
