@@ -10,27 +10,12 @@ Secure Networks Ltd. requires secure access to Microsoft 365 resources while red
 
 ## Implementation
 - Hybrid Identity: Implemented synchronization between Active Directory and Microsoft Entra ID using Entra Connect.
-
-
-  
-
-
-- Multi-Factor Authentication (MFA)
-MFA was configured to strengthen authentication security and reduce the risk of unauthorized access from compromised credentials.
-
-- Conditional Access
-Conditional Access policies were configured to enforce MFA, control access, and support Zero Trust principles.
-
-- Privileged Identity Management (PIM)
-PIM was used to implement Just-In-Time administrative access, reducing standing privileges and supporting least privilege.
-
-- Access Reviews
-Access Reviews were configured to periodically validate user access and reduce excessive permissions.
-
-- Entitlement Management
-Access Packages were created to simplify access requests and improve identity governance.
-
-- Validation
+- Multi-Factor Authentication (MFA): Configured MFA to provide additional authentication security.
+- Conditional Access: Created Conditional Access policies to enforce MFA and control access to cloud applications.
+- Privileged Identity Management (PIM): Configured Just-In-Time and Just Enough administrative access.
+- Access Reviews: Implemented periodic access certification for privileged users.
+- Entitlement Management: Created access packages to support controlled resource requests.
+- Validation: 
 Identity controls were verified through sign-in testing and audit logs.
 
 ## Test Results
