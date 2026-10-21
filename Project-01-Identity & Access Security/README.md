@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates how Microsoft Entra ID can be used to implement Zero Trust identity controls in a hybrid environment.
+This project demonstrates how Microsoft Entra ID can be used to implement Zero Trust identity controls in a cloud and hybrid environment.
 
 The solution integrates hybrid identity, secure authentication, privileged access management, and identity governance to reduce identity-related risk and strengthen access control.
 
@@ -11,12 +11,6 @@ The solution integrates hybrid identity, secure authentication, privileged acces
 ## Scenario
 
 Secure Networks Ltd. requires secure access to Microsoft 365 resources while reducing the attack surface associated with user and administrative accounts.
-
----
-
-## Architecture
-
-[Insert Architecture Diagram]
 
 ---
 
