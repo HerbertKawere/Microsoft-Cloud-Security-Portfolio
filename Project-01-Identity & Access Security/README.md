@@ -18,7 +18,7 @@ Secure Networks Ltd. requires secure access to Microsoft 365 resources while red
 
   Configured MFA to provide additional authentication security.
   
-  Conditional Access
+- Conditional Access
 
   Created Conditional Access policies to enforce MFA and control access to cloud applications.
   
