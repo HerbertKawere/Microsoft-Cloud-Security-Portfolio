@@ -43,4 +43,11 @@ Secure Networks Ltd. requires secure access to Microsoft 365 resources while red
 
 ## Technologies Used
 
-- Active Directory- Microsoft Entra ID- Entra Connect- Multi-Factor Authentication (MFA)- Conditional Access- Privileged Identity Management (PIM)- Access Reviews- Entitlement Management
+- Active Directory
+- Microsoft Entra ID
+- Entra Connect
+- Multi-Factor Authentication (MFA)
+- Conditional Access
+- Privileged Identity Management (PIM)
+- Access Reviews
+- Entitlement Management
